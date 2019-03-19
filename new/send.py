@@ -34,7 +34,7 @@ while True:
             w.EmptyClipboard()
             w.SetClipboardData(win32con.CF_BITMAP,aString)
             w.CloseClipboard()
-        to_who = 'test group'
+        to_who = '老马夸夸群'
         # 获取qq窗口句柄
         qq = win32gui.FindWindow(None, to_who)
         # 投递剪贴板消息到QQ窗体
